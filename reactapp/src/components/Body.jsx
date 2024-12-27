@@ -1,5 +1,7 @@
 import { BODY_CONTENT } from "../constants";
 import profilePic from "../assets/kevinPic.jpeg";
+import johnDeereLogo from "../assets/johnDeereLogo.png";
+
 const Body = () => {
   return (
     <div className="container mx-auto px-4">
@@ -16,8 +18,8 @@ const Body = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:pl-8"> {/* Changed padding to left */}
-          <div className="flex justify-center lg:justify-end">
-            <img src={profilePic} alt="Kevin Tran" className="w-90 h-auto" />
+          <div className="flex flex-col justify-center lg:justify-end space-y-4"> {/* Changed to flex-col and space-y-4 for vertical spacing */}
+            <img src={profilePic} alt="Kevin Tran" className="w-80 h-130" />
           </div>
         </div>
       </div>
