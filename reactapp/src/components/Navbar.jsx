@@ -9,10 +9,15 @@ return (
                                         <img className="mx-2 w-10" src={logo} alt="Iowa State Logo" style={{ width: '125px', height: 'auto', marginLeft: "25px", marginTop: "10px" }} />
                         </div>
                         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                                <FaLinkedin />
-                                <FaGithub />
-                                <FaSquareXTwitter />
-                                <FaInstagram />
+                                <a href="https://www.linkedin.com/in/kevintran77/" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://github.com/kevbang" target="_blank" rel="noopener noreferrer">
+                                    <FaGithub />
+                                </a>
+                                <a href="https://www.instagram.com/kevbang7/" target="_blank" rel="noopener noreferrer">
+                                    <FaInstagram />
+                                </a>
                         </div>
         </nav>
 );

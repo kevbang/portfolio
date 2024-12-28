@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/webProject.png";
+import project1 from "../assets/projects/websiteProject.png";
 
 
 export const BODY_CONTENT = `I am a third-year student majoring in Software Engineering at Iowa State University. I have a passion for learning about new technologies and building software applications. I am proficient in programming languages such as Java, Python, and JavaScript. I have experience working with web development frameworks like React. I am currently a Part-Time Student Software/Cybersecurity Engineer at John Deere. I hope to further develop my skills as a software engineer and contribute to innovative projects.`;
@@ -30,8 +30,8 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project1,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information. Built using React and Javascript. Ran in the cloud on an EC2 instance.",
-    technologies: ["AWS", "JavaScript", "React", "EC2"],
+      "A personal portfolio website showcasing projects, skills, and contact information. Built using React and Javascript. Uploaded to GitHub and deployed using AWS Amplify. CD via Amplify.",
+    technologies: ["AWS", "JavaScript", "React", "Amplify"],
   },
 ];
 

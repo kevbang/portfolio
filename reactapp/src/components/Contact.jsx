@@ -1,6 +1,8 @@
 import { CONTACT } from "../constants/index";
 import { FaRegCopyright } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { TbBrandOpenai } from "react-icons/tb";
+
 
 const Contact = () => {
 return (
@@ -23,11 +25,13 @@ return (
                 transition={{ duration: 1 }} 
                 className="my-4">{CONTACT.email}</motion.p>
                 <a href="https://www.linkedin.com/in/kevintran77" className="border-b">
-                    {CONTACT.linked_in}
+                    {CONTACT.linked_in} 
                 </a>
+                
                 
             </div>
             <p className="my-4 flex justify-center"><FaRegCopyright/></p>
+            <p>  #AI-ASSISTED</p>
         </div>
     </div>
 )
