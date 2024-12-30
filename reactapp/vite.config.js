@@ -7,5 +7,8 @@ export default defineConfig({
   assetsInclude: ["**/*.JPG"],
   build: {
     outDir: "dist"
+  },
+  server: {
+    port: 3000 
   }
 })
