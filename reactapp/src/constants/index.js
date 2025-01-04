@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/websiteProject.png";
-
+import cloud_prac from "../assets/cloud_practitioner.png";
 
 export const BODY_CONTENT = `I am a third-year student majoring in Software Engineering at Iowa State University. I have a passion for learning about new technologies and building software applications. I am proficient in programming languages such as Java, Python, and JavaScript. I have experience working with web development frameworks like React. I am currently a Part-Time Student Software/Cybersecurity Engineer at John Deere. I hope to further develop my skills as a software engineer and contribute to innovative projects.`;
 
@@ -33,6 +33,15 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information. Built using React and Javascript. Uploaded to GitHub and deployed using AWS Amplify. CD via Amplify.",
     technologies: ["AWS", "JavaScript", "React", "Amplify"],
   },
+];
+
+export const CERTIFICATES = [
+  {
+    title: "AWS Certified Cloud Practitioner",
+    image: cloud_prac,
+    description: "The AWS Certified Cloud Practitioner certification validates an individual's understanding of AWS Cloud services and the ability to define basic cloud infrastructure and architectural principles.",
+    date: "August 2024"
+  }
 ];
 
 export const CONTACT = {
