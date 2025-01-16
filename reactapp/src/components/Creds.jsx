@@ -32,7 +32,10 @@ const Creds = () => {
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{certificate.title}</h6>
+              <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/41f3cd58926747828d304fa9fe47bd56" target="_blank" rel="noreferrer">
+                <h6 className="mb-2 font-semibold">{certificate.title}</h6>
+              </a>
+              
               <p className="mb-4 text-neutral-400">{certificate.description}</p>
               <p className="text-sm text-neutral-400">{certificate.date}</p>
             </motion.div>
