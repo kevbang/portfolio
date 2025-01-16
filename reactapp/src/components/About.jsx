@@ -1,6 +1,6 @@
 import aboutImage from "../assets/about.jpg";
 import chicagoCafe from "../assets/ChiCafe.jpg";
-import { FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft, FaSmileBeam } from 'react-icons/fa';
 import { ABOUT_TEXT, ABOUT_TEXT2, ABOUT_TEXT3 } from "../constants";
 import { motion } from "framer-motion";
 
@@ -31,7 +31,7 @@ return (
                 <div className="flex flex-col justify-center lg:justify-start space-y-4 lg:ml-16">
                     <p className="max-w-xl">{ABOUT_TEXT}</p>
                     <p className="max-w-xl">{ABOUT_TEXT2}</p>
-                    <p className="max-w-xl">{ABOUT_TEXT3}</p>
+                    <p className="max-w-xl">{ABOUT_TEXT3}<FaSmileBeam className="inline ml-2"/></p>
                     <p className="py-24 flex items-center"><FaArrowLeft className="mr-2"/>  Chicago, 12/20/2024</p>
                 </div>
             </motion.div>

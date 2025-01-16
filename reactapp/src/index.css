@@ -7,3 +7,7 @@
 :root {
   font-family: "Montserrat", serif;
 }
+
+.shadow-light {
+  box-shadow: 0 4px 6px rgba(31, 31, 31, 0.1);
+}
